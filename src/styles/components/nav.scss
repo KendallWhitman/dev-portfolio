@@ -1,0 +1,30 @@
+.nav {
+
+  &__list {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin: 0 $space*2 0 0;
+    } 
+  }
+
+  &__link {
+    color: $primary-color;
+    fill: $primary-color;
+    &:hover {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+  }
+
+  &__icon {
+    width: 30px;
+  }
+
+}

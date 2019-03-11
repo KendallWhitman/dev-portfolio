@@ -1,0 +1,23 @@
+// TYPOGRAPHY
+// ----------------------------------------------------------------------------
+$font: sans-serif;
+
+@mixin text {
+  color: $primary-color;
+  font-family: $font;
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 27px;
+}
+
+@mixin text-bold {
+  @include text;
+  font-weight: 600;
+}
+
+@mixin text-large {
+  @include text;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}

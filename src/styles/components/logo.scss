@@ -1,0 +1,21 @@
+.logo {
+  @include text-bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &__title {
+    border-bottom: 2px solid $secondary-color;
+    color: $accent-color;
+    display: block;
+    font-size: 24px;
+    margin: 0 0 4px;
+    padding: 0 0 2px;
+  }
+
+  &__subtitle {
+    color: $primary-color;
+    display: block;
+    font-size: 20px;
+  }
+
+}

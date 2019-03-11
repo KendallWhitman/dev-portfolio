@@ -1,0 +1,16 @@
+.header {
+  align-items: center;
+  background: $body-color;
+  display: flex;
+  height: $header-height;
+  justify-content: space-between;
+  padding: 0 $space;
+  position: sticky;
+  top: 0;
+  transition: box-shadow 0.25s;
+
+  &--shadow {
+    box-shadow: 0 0 5px $secondary-color;
+  }
+
+}
