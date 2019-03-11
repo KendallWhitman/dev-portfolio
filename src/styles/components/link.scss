@@ -1,0 +1,18 @@
+.link {
+  @include text;
+  color: $accent-color;
+  display: inline-block;
+  text-decoration: none;
+  &:after {
+    border-bottom: 2px solid $accent-color;
+    content: '';
+    display: block;
+    transition: width 0.25s;
+    width: 0;
+  }
+  &:hover {
+    &:after {
+      width: 100%;
+    }
+  }
+}

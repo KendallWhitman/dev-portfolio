@@ -3,7 +3,6 @@
 $font: sans-serif;
 
 @mixin text {
-  color: $primary-color;
   font-family: $font;
   font-size: 18px;
   letter-spacing: -1px;

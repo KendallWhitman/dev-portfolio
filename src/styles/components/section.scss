@@ -44,10 +44,14 @@
 
   }
 
-  &__link {
-    @include text;
-    color: $accent-color;
-    text-decoration: none;
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
     &:not(:last-child) {
       margin: 0 $space 0 0;
     }

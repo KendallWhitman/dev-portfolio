@@ -1,8 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
-import Header from "./header"
+import Header from './header'
 import '../styles/styles.scss'
 
 const Layout = ({ children }) => (
@@ -22,8 +23,11 @@ const Layout = ({ children }) => (
       const subtitle = data.site.siteMetadata.subtitle
       return (
         <>
+          <Helmet>
+            <title>{title} | {subtitle}</title>
+          </Helmet>
           <Header title={title} subtitle={subtitle} />
-          <main className="main">{children}</main>
+          <main className='main'>{children}</main>
         </>
       )
     }}

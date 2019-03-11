@@ -11,11 +11,11 @@ const portfolioList = [
     name: `Doorsteps (2017 to Present)`,
     description: `
       At Doorsteps, I work on a small, cross functional team with four other
-      developers. We use ReactJS, NextJS, Redux, SCSS, and other technologies
-      to build out our front end with mostly NodeJS (We've still got a lone
-      Ruby on Rails server) on the backend. While being a cross functional team
-      means I touch all parts of the application, my strengths tend to lie in
-      the front end, writing JavaScript and SCSS components.
+      developers. We use ReactJS, Redux, PostgreSQL, SCSS, and other
+      technologies to build out our front end with mostly NodeJS (We've still
+      got a lone Ruby on Rails server) on the backend. While being a cross
+      functional team means I touch all parts of the application, my strengths
+      tend to lie in the front end, writing JavaScript and SCSS components.
     `,
     links: [
       {
@@ -40,19 +40,25 @@ const portfolioList = [
         link: 'https://www.emilyrahm.com'
       },
       {
-        name: 'JenniferEckhart.com',
-        link: 'https://www.jennifereckhart.com'
-      },
-      {
         name: 'SarahTeed.com',
         link: 'https://www.sarahteed.com'
+      },
+      {
+        name: 'JenniferEckhart.com',
+        link: 'https://www.jennifereckhart.com'
       },
     ],
   },
   {
     icon: Alkami,
     name: `Alkami (March 2016 to January 2017)`,
-    description: `Lorem Ipsum`,
+    description: `
+      Most of my responsbilities at Alkami were building out the front end for
+      our banking clients. After working with the design team, I would take the
+      finished design and build out the layouts needed. I would also build out
+      new features introduced by our project manager. We used an ASP.NET
+      framework, with SASS CSS, and KnockoutJS as our front end framework.
+    `,
     links: [
       {
         name: 'Alkami.com',
@@ -63,12 +69,27 @@ const portfolioList = [
   {
     icon: DoctorLogic,
     name: `DoctorLogic (July 2014 to March 2016)`,
-    description: ``,
+    description: `
+      DoctorLogic was where I first started my web development career after my
+      four year stint in IT support. I worked closely with the lead designer
+      and would build out front page designs from Photoshop mockups. We used
+      an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming
+      the sole front end developer on the team after a few months, I can say I
+      learned more than I ever expected being apart of this company.
+    `,
     links: [
       {
         name: 'DoctorLogic.com',
         link: 'https://www.doctorlogic.com'
-      }
+      },
+      {
+        name: 'JansenPlasticSurgery.com',
+        link: 'https://jansenplasticsurgery.com/'
+      },
+      {
+        name: 'ClintonWebserMD.com',
+        link: 'https://clintonwebstermd.com/'
+      },
     ],
   },
 ]
@@ -85,9 +106,13 @@ const Portfolio = () => (
           <div>
             <h3 className='section__subtitle'>{ item.name }</h3>
             <p className='section__text section__text--spaced'>{ item.description }</p>
-            {item.links && item.links.map((link, i) => (
-              <a key={i} href={link.link} className='section__link'>{link.name}</a>
-            ))}
+            <ul className="section__list">
+              {item.links && item.links.map((link, i) => (
+                <li class="section__item">
+                  <a key={i} href={link.link} className='link'>{link.name}</a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       )

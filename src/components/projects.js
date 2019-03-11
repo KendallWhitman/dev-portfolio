@@ -37,9 +37,13 @@ const Projects = () => (
           <div>
             <h3 className='section__subtitle'>{ item.name }</h3>
             <p className='section__text section__text--spaced'>{ item.description }</p>
-            {item.links && item.links.map((link, i) => (
-              <a key={i} href={link.link} className='section__link'>{link.name}</a>
-            ))}
+            <ul className="section__list">
+              {item.links && item.links.map((link, i) => (
+                <li class="section__item">
+                  <a key={i} href={link.link} className='link'>{link.name}</a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       )
