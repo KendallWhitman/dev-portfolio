@@ -14,6 +14,10 @@ import Postgresql from '../images/postgresql.svg'
 import Apache from '../images/apache.svg'
 import WordPress from '../images/wordpress.svg'
 import PHP from '../images/php.svg'
+import Photoshop from '../images/adobephotoshop.svg'
+import Lightroom from '../images/adobelightroom.svg'
+import Illustrator from '../images/adobeillustrator.svg'
+import Premiere from '../images/adobepremiere.svg'
 
 const skillList = [
   {
@@ -79,6 +83,22 @@ const skillList = [
   {
     icon: Shell,
     name: `Bash Scripting`,
+  },
+  {
+    icon: Photoshop,
+    name: `Photoshop`,
+  },
+  {
+    icon: Lightroom,
+    name: `Lightroom`,
+  },
+  {
+    icon: Illustrator,
+    name: `Illustrator`,
+  },
+  {
+    icon: Premiere,
+    name: `Premiere`,
   },
 ]
 
