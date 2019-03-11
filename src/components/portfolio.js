@@ -31,7 +31,7 @@ const portfolioList = [
       Shortly after moving to New York, I picked up a number of different
       projects, from single page portfolio sites, to larger e-commerce sites.
       The tools for these depended on the project, but I would tend to lean
-      towards WordPress or GatsbyJS. All the while using SASS or regular CSS
+      towards WordPress or GatsbyJS, all the while using SASS or regular CSS
       for styling.
     `,
     links: [
@@ -74,8 +74,8 @@ const portfolioList = [
       four year stint in IT support. I worked closely with the lead designer
       and would build out front page designs from Photoshop mockups. We used
       an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming
-      the sole front end developer on the team after a few months, I can say I
-      learned more than I ever expected being apart of this company.
+      the sole developer, I learned more than I expected to, and am still using
+      that knowledge in my career today.
     `,
     links: [
       {
