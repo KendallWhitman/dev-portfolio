@@ -5,6 +5,7 @@ $font: sans-serif;
 @mixin text {
   font-family: $font;
   font-size: 18px;
+  font-weight: 400;
   letter-spacing: -1px;
   line-height: 27px;
 }
