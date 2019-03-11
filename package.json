@@ -1,20 +1,14 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kendall-whitman-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Web development portfolio",
+  "version": "1.0.0",
+  "author": "Kendall Whitman <kendallwhitman@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.27",
-    "gatsby-image": "^2.0.31",
-    "gatsby-plugin-manifest": "^2.0.22",
-    "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-react-svg": "^2.1.0",
     "gatsby-plugin-sass": "^2.0.10",
-    "gatsby-plugin-sharp": "^2.0.25",
-    "gatsby-source-filesystem": "^2.0.23",
-    "gatsby-transformer-sharp": "^2.1.15",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
@@ -24,9 +18,6 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -35,12 +26,5 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
