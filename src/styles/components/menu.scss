@@ -1,0 +1,11 @@
+.mobile-menu {
+  @include headline-text-m;
+  color: $secondary-color;
+  cursor: pointer;
+  @include tablet {
+    display: none;
+  }
+  &:hover {
+    color: $accent-color;
+  }
+}

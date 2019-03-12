@@ -3,24 +3,23 @@
 $font-headline: 'Oswald', sans-serif;
 $font-body: 'Open Sans', sans-serif;
 
-@mixin text {
+@mixin body-text {
   font-family: $font-body;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
 }
 
-@mixin text-bold {
-  @include text;
+@mixin headline-text-m {
   font-family: $font-headline;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 33px;
 }
 
-@mixin text-large {
-  @include text;
+@mixin headline-text-l {
   font-family: $font-headline;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 48px;
 }

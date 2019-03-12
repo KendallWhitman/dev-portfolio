@@ -1,5 +1,5 @@
 .logo {
-  @include text-bold;
+  @include headline-text-m;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -8,12 +8,11 @@
     color: $accent-color;
     display: block;
     font-size: 28px;
-    margin: 0 0 4px;
-    padding: 0 0 6px;
+    padding: 0 0 3px;
   }
 
   &__subtitle {
-    color: $primary-color;
+    color: $secondary-color;
     display: block;
     font-size: 23px;
   }

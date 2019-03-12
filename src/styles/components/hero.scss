@@ -1,10 +1,10 @@
 .hero {
   align-items: center;
-  border-bottom: 1px dashed $secondary-color;
+  border-bottom: 1px dashed $primary-color;
   display: grid;
   grid-template-columns: auto 1fr;
-  margin: $space*4 0;
-  padding: 0 0 $space*4;
+  margin: 0 0 $space*4;
+  padding: $space*4 0;
 
   &__image {
     border: 10px solid $accent-color;
@@ -16,13 +16,13 @@
   }
 
   &__headline {
-    @include text-large;
+    @include headline-text-l;
     color: $primary-color;
     margin: 0 0 $space;
   }
 
   &__text {
-    @include text;
+    @include body-text;
     color: $primary-color;
     margin: 0;
   }
