@@ -8,7 +8,7 @@ import DoctorLogic from '../images/doctorlogic.svg'
 const portfolioList = [
   {
     icon: Doorsteps,
-    name: `Doorsteps (2017 to Present)`,
+    name: `Doorsteps (July 2017 to Present)`,
     description: `
       At Doorsteps, I work on a small, cross functional team with four other developers. We use ReactJS, Redux, PostgreSQL, SCSS, and other technologies to build out our front end with mostly NodeJS (We've still got a lone Ruby on Rails server) on the backend. While being a cross functional team means I touch all parts of the application, my strengths tend to lie in the front end, writing JavaScript and SCSS components.
     `,

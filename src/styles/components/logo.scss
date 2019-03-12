@@ -5,7 +5,7 @@
   &__title {
     @include logo-title-text;
     border-bottom: 2px solid $secondary-color;
-    color: $accent-color;
+    color: $accent-light;
     display: table;
   }
 
