@@ -25,6 +25,7 @@ const Layout = ({ children }) => (
         <>
           <Helmet>
             <title>{title} | {subtitle}</title>
+            <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,500,600' />
           </Helmet>
           <Header title={title} subtitle={subtitle} />
           <main className='main'>{children}</main>
