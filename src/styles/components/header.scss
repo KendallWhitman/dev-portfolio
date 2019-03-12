@@ -3,10 +3,13 @@
   background: $primary-color;
   box-sizing: border-box;
   display: flex;
-  height: $header-height;
+  height: $header-height-mobile;
   justify-content: space-between;
   padding: 0 $space;
   position: sticky;
   top: 0;
   transition: box-shadow 0.25s;
+  @include tablet {
+    height: $header-height;
+  }
 }

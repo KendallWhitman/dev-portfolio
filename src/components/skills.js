@@ -106,9 +106,9 @@ const Skills = () => (
   <section className='section section--grid'>
     <h2 className='section__title'>My Skill Set (so far)</h2>
     {skillList.map(skill => (
-      <div className='section__wrapper'>
-        <skill.icon className='section__icon' />
-        <p className='section__text'>{skill.name}</p>
+      <div className='list-item'>
+        <skill.icon className='list-item__icon' />
+        <p className='list-item__text list-item__text--centered'>{skill.name}</p>
       </div>
     ))}
   </section>

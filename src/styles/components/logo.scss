@@ -1,20 +1,17 @@
 .logo {
-  @include headline-text-m;
   text-decoration: none;
   text-transform: uppercase;
 
   &__title {
+    @include logo-title-text;
     border-bottom: 2px solid $secondary-color;
     color: $accent-color;
-    display: block;
-    font-size: 28px;
-    padding: 0 0 3px;
+    display: table;
   }
 
   &__subtitle {
+    @include logo-subtitle-text;
     color: $secondary-color;
-    display: block;
-    font-size: 23px;
   }
 
 }

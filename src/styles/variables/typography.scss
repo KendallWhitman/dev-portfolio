@@ -3,23 +3,67 @@
 $font-headline: 'Oswald', sans-serif;
 $font-body: 'Open Sans', sans-serif;
 
-@mixin body-text {
-  font-family: $font-body;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
+// FONT SIZES
+// ----------------------------------------------------------------------------
+$logo-title: 28;
+$logo-subtitle: 23;
+$headline-text-m: 24;
+$headline-text-l: 32;
+$body-text: 16;
+
+// CALCULATE LINE HEIGHT AND CONVERT TO REMS
+// ----------------------------------------------------------------------------
+@function toRem($pixel) {
+  @return ($pixel / 16) + rem;
+}
+
+@function lineHeight ($font-size) {
+  @return (toRem($font-size * 1.5));
+}
+
+@mixin fontSize ($font-size) {
+  font-size: toRem($font-size - 4);
+  line-height: lineHeight($font-size - 4);
+  @include tablet {
+    font-size: toRem($font-size);
+    line-height: lineHeight($font-size);
+  }
+}
+
+// TEXT STYLES
+// ----------------------------------------------------------------------------
+@mixin logo-title-text {
+  @include fontSize($logo-title);
+  font-family: $font-headline;
+  font-weight: 500;
+}
+
+@mixin logo-subtitle-text {
+  font-family: $font-headline;
+  font-size: toRem($logo-subtitle - 3.1);
+  font-weight: 500;
+  line-height: lineHeight($logo-subtitle - 3.1);
+  @include tablet {
+    font-size: toRem($logo-subtitle);
+    line-height: lineHeight($logo-subtitle);
+  }
 }
 
 @mixin headline-text-m {
+  @include fontSize($headline-text-m);
   font-family: $font-headline;
-  font-size: 22px;
   font-weight: 500;
-  line-height: 33px;
 }
 
 @mixin headline-text-l {
+  @include fontSize($headline-text-l);
   font-family: $font-headline;
-  font-size: 32px;
   font-weight: 500;
-  line-height: 48px;
+}
+
+@mixin body-text {
+  font-family: $font-body;
+  font-size: toRem($body-text);
+  font-weight: 400;
+  line-height: lineHeight($body-text);
 }
