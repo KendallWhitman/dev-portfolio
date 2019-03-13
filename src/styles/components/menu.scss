@@ -19,16 +19,16 @@
     content: '';
     display: block;
     margin: 0 0 8px;
-    transition: all 0.2s 0.4s;
+    transition: all 0.2s 0.2s;
   }
 
   &--active {
     transform: rotate(-45deg);
-    transition: all 0.2s 0.4s;
+    transition: all 0.2s 0.2s;
     &:before {
       margin: 0 0 -12px;
       transform: rotate(90deg);
-      transition: all 0.2s 0.4s;
+      transition: all 0.2s 0.2s;
     }
     &:after {
       border-bottom: 2px solid transparent;
