@@ -8,14 +8,22 @@ import '../styles/styles.scss'
 class Layout extends Component {
   constructor (props) {
     super(props)
+
     this.state = {
       menuActive: false,
     }
+
     this._toggleMenu = this._toggleMenu.bind(this)
   }
 
   _toggleMenu () {
-    this.setState({ menuActive: !this.state.menuActive })
+    this.setState({ menuActive: !this.state.menuActive }, () => {
+      if (this.state.menuActive) {
+        document.body.classList.add('body--fixed')
+      } else {
+        document.body.classList.remove('body--fixed')
+      }
+    })
   }
 
   render () {
@@ -36,7 +44,12 @@ class Layout extends Component {
           toggleMenu={this._toggleMenu}
           menuActive={menuActive}
         />
-        <main className='main'>{children}</main>
+      <main
+        className={`main ${menuActive ? 'main--faded' : ''}`}
+        onClick={menuActive ? this._toggleMenu : undefined}
+      >
+        {children}
+      </main>
       </>
     )
   }

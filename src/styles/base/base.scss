@@ -3,8 +3,31 @@ body {
   margin: 0;
 }
 
+.body--fixed {
+  overflow: hidden;
+}
+
 .main {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 $space;
+  &:after {
+    background: transparent;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: $header-height-mobile;
+    transition: background 0.25s, visibility 0.25s;
+    visibility: hidden;
+    width: 100%;
+  }
+
+  &--faded {
+    &:after {
+      background: transparentize($primary-color, 0.5);
+        visibility: visible;
+    }
+  }
+
 }
