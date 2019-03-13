@@ -105,8 +105,8 @@ const skillList = [
 const Skills = () => (
   <section className='section section--grid'>
     <h2 className='section__title'>My Skill Set (so far)</h2>
-    {skillList.map(skill => (
-      <div className='list-item'>
+    {skillList.map((skill, i) => (
+      <div key={i} className='list-item'>
         <skill.icon className='list-item__icon' />
         <p className='list-item__text list-item__text--centered'>{skill.name}</p>
       </div>

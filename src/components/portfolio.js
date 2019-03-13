@@ -88,8 +88,8 @@ const Portfolio = () => (
             <p className='list-item__text list-item__text--spaced'>{item.description}</p>
             <ul className="list-item__list">
               {item.links && item.links.map((link, i) => (
-                <li class="list-item__item">
-                  <a key={i} href={link.link} className='link'>{link.name}</a>
+                <li key={i} className="list-item__item">
+                  <a href={link.link} className='link'>{link.name}</a>
                 </li>
               ))}
             </ul>

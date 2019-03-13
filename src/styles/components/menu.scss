@@ -1,11 +1,39 @@
 .mobile-menu {
-  @include headline-text-m;
-  color: $secondary-color;
+  border-bottom: 2px solid $secondary-color;
   cursor: pointer;
+  display: block;
+  transition: all 0.2s;
+  width: 35px;
   @include tablet {
     display: none;
   }
-  &:hover {
-    color: $accent-light;
+  &:before {
+    border-bottom: 2px solid $secondary-color;
+    content: '';
+    display: block;
+    margin: 0 0 8px;
+    transition: all 0.2s;
   }
+  &:after {
+    border-bottom: 2px solid $secondary-color;
+    content: '';
+    display: block;
+    margin: 0 0 8px;
+    transition: all 0.2s 0.4s;
+  }
+
+  &--active {
+    transform: rotate(-45deg);
+    transition: all 0.2s 0.4s;
+    &:before {
+      margin: 0 0 -12px;
+      transform: rotate(90deg);
+      transition: all 0.2s 0.4s;
+    }
+    &:after {
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+  }
+
 }
