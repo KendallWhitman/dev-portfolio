@@ -18,11 +18,9 @@ class Layout extends Component {
 
   _toggleMenu () {
     this.setState({ menuActive: !this.state.menuActive }, () => {
-      if (this.state.menuActive) {
-        document.body.classList.add('body--fixed')
-      } else {
-        document.body.classList.remove('body--fixed')
-      }
+      this.state.menuActive
+        ? document.body.classList.add('fixed')
+        : document.body.classList.remove('fixed')
     })
   }
 
