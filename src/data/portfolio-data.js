@@ -1,11 +1,9 @@
-import React from 'react'
-
 import Doorsteps from '../images/doorsteps.svg'
 import Airplane from '../images/airplane.svg'
 import Alkami from '../images/alkami.svg'
 import DoctorLogic from '../images/doctorlogic.svg'
 
-const portfolioList = [
+const PortfolioData = [
   {
     icon: Doorsteps,
     name: `Doorsteps (July 2017 to Present)`,
@@ -76,28 +74,4 @@ const portfolioList = [
   },
 ]
 
-const Portfolio = () => (
-  <section className='section'>
-    <h2 className='section__title'>What I've Been Doing</h2>
-    {portfolioList.map((item, i) => {
-      return (
-        <div key={i} className='list-item'>
-          <item.icon className='list-item__icon list-item__icon--large' />
-          <h3 className='list-item__title'>{item.name}</h3>
-          <div className="list-item__container">
-            <p className='list-item__text list-item__text--spaced'>{item.description}</p>
-            <ul className="list-item__list">
-              {item.links && item.links.map((link, i) => (
-                <li key={i} className="list-item__item">
-                  <a href={link.link} className='link'>{link.name}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      )
-    })}
-  </section>
-)
-
-export default Portfolio
+export default PortfolioData

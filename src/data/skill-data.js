@@ -1,5 +1,3 @@
-import React from 'react'
-
 import HTML from '../images/html5.svg'
 import CSS from '../images/css3.svg'
 import SASS from '../images/sass.svg'
@@ -19,7 +17,7 @@ import Lightroom from '../images/adobelightroom.svg'
 import Illustrator from '../images/adobeillustrator.svg'
 import Premiere from '../images/adobepremiere.svg'
 
-const skillList = [
+const SkillData = [
   {
     icon: HTML,
     name: `HTML`,
@@ -102,16 +100,4 @@ const skillList = [
   },
 ]
 
-const Skills = () => (
-  <section className='section section--grid'>
-    <h2 className='section__title'>My Skill Set (so far)</h2>
-    {skillList.map((skill, i) => (
-      <div key={i} className='list-item'>
-        <skill.icon className='list-item__icon' />
-        <p className='list-item__text list-item__text--centered'>{skill.name}</p>
-      </div>
-    ))}
-  </section>
-)
-
-export default Skills
+export default SkillData
