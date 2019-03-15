@@ -14,11 +14,13 @@
     height: 100px;
     margin: 0 0 $space;
     object-fit: cover;
+    object-position: -20px 0;
     width: 100px;
     @include tablet {
-      border: 10px solid $accent-color;
+      border: 8px solid $accent-color;
       height: 200px;
       margin: 0 $space*2 0 0;
+      object-position: -40px 0;
       width: 200px;
     }
   }

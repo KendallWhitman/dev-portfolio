@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from '../images/profile-web.jpg'
 
 const getYears = () => {
   const startDate = new Date(2014, 7)
@@ -6,10 +7,10 @@ const getYears = () => {
   return currentDate.getFullYear() - startDate.getFullYear()
 }
 
-const Hero = () => (
+const Hero = ({ data }) => (
   <section className='hero'>
     <img
-      src='https://www.kendallwhitman.com/static/profile.d4e9d47d.jpg'
+      src={Image}
       alt='Kendall Whitman'
       className='hero__image'
     />
