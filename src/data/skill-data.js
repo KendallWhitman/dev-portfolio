@@ -36,11 +36,19 @@ const SkillData = [
   },
   {
     icon: Node,
-    name: `NodeJS`,
+    name: `Node`,
+  },
+  {
+    icon: Node,
+    name: `Express`,
   },
   {
     icon: ReactJS,
-    name: `ReactJS`,
+    name: `React`,
+  },
+  {
+    icon: ReactJS,
+    name: `NextJS`,
   },
   {
     icon: Redux,
@@ -51,16 +59,8 @@ const SkillData = [
     name: `Webpack`,
   },
   {
-    icon: JavaScript,
-    name: `Express`,
-  },
-  {
-    icon: JavaScript,
-    name: `NextJS`,
-  },
-  {
     icon: Gatsby,
-    name: `GatsbyJS`,
+    name: `Gatsby`,
   },
   {
     icon: Apache,
