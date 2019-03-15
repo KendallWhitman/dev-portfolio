@@ -1,3 +1,5 @@
+import RaspberryPi from '../images/raspberrypi.svg'
+
 const InterestData = [
   {
     name: '3D Design & Printing',
@@ -6,6 +8,7 @@ const InterestData = [
     name: 'Home Server Tinkering',
   },
   {
+    icon: RaspberryPi,
     name: 'Raspberry Pi Tinkering',
   },
   {
