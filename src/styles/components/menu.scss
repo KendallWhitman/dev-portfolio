@@ -23,9 +23,11 @@
   }
 
   &--active {
+    border-color: $accent-color;
     transform: rotate(-45deg);
     transition: all 0.2s 0.2s;
     &:before {
+      border-color: $accent-color;
       margin: 0 0 -12px;
       transform: rotate(90deg);
       transition: all 0.2s 0.2s;

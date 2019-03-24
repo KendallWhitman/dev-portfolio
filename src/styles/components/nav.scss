@@ -37,6 +37,7 @@
     color: $secondary-color;
     fill: $secondary-color;
     text-decoration: none;
+    transition: color 0.2s, fill 0.2s;
     @include mobile {
       display: flex;
       padding: $space;

@@ -1,23 +1,24 @@
 .hero {
   align-items: center;
   border-bottom: 1px dashed $primary-color;
-  margin: 0 0 $space*4;
-  padding: $space*4 0;
+  margin: 0 0 $space*2;
+  padding: $space*2 0;
   @include tablet {
     display: grid;
     grid-template-columns: auto 1fr;
+    margin: 0 0 $space*4;
+    padding: $space*4 0;
   }
 
   &__image {
-    border: 5px solid $accent-color;
+    border: 8px solid $accent-color;
     border-radius: 100%;
-    height: 100px;
+    height: 150px;
     margin: 0 0 $space;
     object-fit: cover;
-    object-position: -20px 0;
-    width: 100px;
+    object-position: -25px 0;
+    width: 150px;
     @include tablet {
-      border: 8px solid $accent-color;
       height: 200px;
       margin: 0 $space*2 0 0;
       object-position: -40px 0;
