@@ -67,3 +67,10 @@ $body-text: 18;
   font-weight: 400;
   line-height: lineHeight($body-text);
 }
+
+@mixin link-text {
+  font-family: $font-body;
+  font-size: toRem($body-text);
+  font-weight: 600;
+  line-height: lineHeight($body-text);
+}

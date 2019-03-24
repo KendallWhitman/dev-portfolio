@@ -8,7 +8,6 @@
   padding: 0 $space;
   position: sticky;
   top: 0;
-  transition: box-shadow 0.25s;
   z-index: 1;
   @include tablet {
     height: $header-height;

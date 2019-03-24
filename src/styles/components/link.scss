@@ -1,5 +1,5 @@
 .link {
-  @include body-text;
+  @include link-text;
   color: $accent-color;
   display: inline-block;
   text-decoration: none;
@@ -7,7 +7,7 @@
     border-bottom: 2px solid $accent-color;
     content: '';
     display: block;
-    transition: width 0.25s;
+    transition: width 0.2s;
     width: 0;
   }
   &:hover {

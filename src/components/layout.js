@@ -34,7 +34,7 @@ class Layout extends Component {
       <>
         <Helmet>
           <title>{title} | {subtitle}</title>
-          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,500,600' />
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:500' />
         </Helmet>
         <Header
           title={title}
