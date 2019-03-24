@@ -9,9 +9,9 @@ $logo-title: 28;
 $logo-subtitle: 23;
 $headline-text-m: 24;
 $headline-text-l: 32;
-$body-text: 16;
+$body-text: 18;
 
-// CALCULATE LINE HEIGHT AND CONVERT TO REMS
+// CALCULATE LINE HEIGHT AND FONT SIZE AND CONVERT TO REMS
 // ----------------------------------------------------------------------------
 @function toRem($pixel) {
   @return ($pixel / 16) + rem;

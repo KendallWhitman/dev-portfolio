@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from './header'
+import Footer from './footer'
 import '../styles/styles.scss'
 
 class Layout extends Component {
@@ -41,12 +42,13 @@ class Layout extends Component {
           toggleMenu={this._toggleMenu}
           menuActive={menuActive}
         />
-      <main
-        className={`main ${menuActive ? 'main--faded' : ''}`}
-        onClick={menuActive ? this._toggleMenu : undefined}
-      >
-        {children}
-      </main>
+        <main
+          className={`main ${menuActive ? 'main--faded' : ''}`}
+          onClick={menuActive ? this._toggleMenu : undefined}
+        >
+          {children}
+        </main>
+        <Footer />
       </>
     )
   }

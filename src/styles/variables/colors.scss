@@ -1,7 +1,9 @@
 // COLORS
 // ----------------------------------------------------------------------------
-$primary-color: #333;
-$secondary-color: #E2E2E2;
+$primary-color: #1E1C2C;
+$secondary-color: #EEE;
 
-$accent-color: #1F6CA3;
-$accent-light: lighten($accent-color, 5%);
+$accent-color: #E3A519;
+$accent-light: $accent-color;
+
+$text-color: #333;

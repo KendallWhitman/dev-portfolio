@@ -27,13 +27,13 @@
 
   &__headline {
     @include headline-text-l;
-    color: $primary-color;
+    color: $text-color;
     margin: 0 0 $space;
   }
 
   &__text {
     @include body-text;
-    color: $primary-color;
+    color: $text-color;
     margin: 0;
   }
 

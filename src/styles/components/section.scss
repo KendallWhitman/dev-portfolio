@@ -24,13 +24,14 @@
 
   &__title {
     @include headline-text-l;
-    color: $primary-color;
+    color: $text-color;
     grid-column: 1 / -1;
     margin: 0;
   }
 
   &__text {
     @include body-text;
+    color: $text-color;
     margin: 0;
   }
 

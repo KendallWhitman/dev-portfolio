@@ -1,0 +1,31 @@
+.footer {
+  background: $primary-color;
+  color: #FFF;
+
+  &__wrapper {
+    margin: 0 auto;
+    max-width: $desktop;
+    padding: $space;
+    @include tablet {
+      align-items: center;
+      display: flex;
+      height: 150px;
+      justify-content: space-between;
+    }
+  }
+
+  &__section {
+    &:not(:last-child) {
+      margin: 0 0 $space*4;
+      @include tablet {
+        margin: 0;
+      }
+    }
+  }
+
+  &__title {
+    @include headline-text-l;
+    margin: 0 0 $space;
+  }
+
+}

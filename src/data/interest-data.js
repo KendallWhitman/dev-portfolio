@@ -1,6 +1,6 @@
 const InterestData = [
   {
-    name: '3D Design & Printing',
+    name: '3D Modeling & Printing',
   },
   {
     name: 'Home Server Tinkering',
