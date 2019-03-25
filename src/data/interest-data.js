@@ -9,10 +9,10 @@ const InterestData = [
     name: 'Raspberry Pi Tinkering',
   },
   {
-    name: 'Privacy Advocate',
+    name: 'Photography Enthusiast',
   },
   {
-    name: 'Photography',
+    name: 'Privacy Advocate',
   },
 ]
 

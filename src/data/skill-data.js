@@ -80,7 +80,7 @@ const SkillData = [
   },
   {
     icon: Shell,
-    name: `Bash Scripting`,
+    name: `Shell Scripting`,
   },
   {
     icon: Photoshop,
