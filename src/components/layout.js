@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import siteData from '../data/site-data'
 
 import Header from './header'
 import Footer from './footer'
@@ -25,15 +26,15 @@ class Layout extends Component {
   }
 
   render () {
-    const title = 'Kendall Whitman'
-    const subtitle = 'Front End Developer'
     const { children } = this.props
     const { menuActive } = this.state
+    const { title, subtitle, description } = siteData
 
     return (
       <>
         <Helmet>
           <title>{title} | {subtitle}</title>
+          <meta name='description' content={description} />
         </Helmet>
         <Header
           title={title}

@@ -1,6 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
 import SocialData from '../data/social-data'
 
 const Header = ({ title, subtitle, toggleMenu, menuActive }) => (
@@ -29,13 +27,5 @@ const Header = ({ title, subtitle, toggleMenu, menuActive }) => (
     </nav>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
