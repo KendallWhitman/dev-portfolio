@@ -3,10 +3,10 @@
     background: $primary-color;
     height: calc(100vh - #{$header-height-mobile});
     position: fixed;
-    right: -300px;
+    right: -$nav-menu-width;
     top: $header-height-mobile;
     transition: right 0.2s;
-    width: 300px;
+    width: $nav-menu-width;
   }
 
   &--active {
