@@ -30,7 +30,7 @@ const PortfolioData = [
       },
       {
         name: 'SarahTeed.com',
-        link: 'https://www.sarahteed.com'
+        link: 'http://sarahteed.com'
       },
       {
         name: 'JenniferEckhart.com',
