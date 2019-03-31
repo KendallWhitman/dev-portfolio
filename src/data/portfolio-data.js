@@ -63,6 +63,10 @@ const PortfolioData = [
         link: 'https://www.doctorlogic.com'
       },
       {
+        name: 'USAPlasticSurgery.com',
+        link: 'https://usaplasticsurgery.com/'
+      },
+      {
         name: 'JansenPlasticSurgery.com',
         link: 'https://jansenplasticsurgery.com/'
       },
