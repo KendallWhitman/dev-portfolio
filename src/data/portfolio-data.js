@@ -55,7 +55,7 @@ const PortfolioData = [
     icon: DoctorLogic,
     name: `DoctorLogic (July 2014 to March 2016)`,
     description: `
-      DoctorLogic was where I first started my web development career after my four year stint in IT support. I worked closely with the lead designer and would build out front page designs from Photoshop mockups. We used an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming the sole developer, I learned more than I expected to, and am still using that knowledge in my career today.
+      DoctorLogic was where I first started my web development career after my four year stint in IT support. I worked closely with the lead designer and would build out front page designs from Photoshop mockups. We used an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming the sole front end developer, I learned more than I expected to, and am still using that knowledge in my career today.
     `,
     links: [
       {
