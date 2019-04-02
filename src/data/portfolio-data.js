@@ -42,7 +42,7 @@ const PortfolioData = [
     icon: Alkami,
     name: `Alkami (March 2016 to January 2017)`,
     description: `
-      Most of my responsbilities at Alkami were building out the front end for our banking clients. After working with the design team, I would take the finished design and build out the layouts needed. I would also build out new features introduced by our project manager. We used an ASP.NET framework, with SASS CSS, and KnockoutJS as our front end framework.
+      Most of my responsibilities at Alkami were building out the front end for our banking clients. After working with the design team, I would take the finished design and build out the layouts needed. I would also build out new features introduced by our project manager. We used an ASP.NET framework, with SASS CSS, and KnockoutJS as our front end framework.
     `,
     links: [
       {
