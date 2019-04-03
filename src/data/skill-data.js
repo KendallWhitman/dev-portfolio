@@ -15,7 +15,7 @@ import PHP from '../images/php.svg'
 import Photoshop from '../images/adobephotoshop.svg'
 import Lightroom from '../images/adobelightroom.svg'
 import Illustrator from '../images/adobeillustrator.svg'
-import Premiere from '../images/adobepremiere.svg'
+import Ubuntu from '../images/ubuntu.svg'
 
 const SkillData = [
   {
@@ -79,6 +79,10 @@ const SkillData = [
     name: `PostgreSQL`,
   },
   {
+    icon: Ubuntu,
+    name: `Linux Servers`,
+  },
+  {
     icon: Shell,
     name: `Shell Scripting`,
   },
@@ -93,10 +97,6 @@ const SkillData = [
   {
     icon: Illustrator,
     name: `Illustrator`,
-  },
-  {
-    icon: Premiere,
-    name: `Premiere`,
   },
 ]
 
