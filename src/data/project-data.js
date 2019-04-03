@@ -9,8 +9,12 @@ const ProjectData = [
     `,
     links: [
       {
-        name: 'American Sign Language API',
+        name: 'Front End',
         link: 'https://asl.thewhitmans.cloud'
+      },
+      {
+        name: 'API',
+        link: 'https://aslapi.thewhitmans.cloud/api/signs/'
       }
     ],
   },

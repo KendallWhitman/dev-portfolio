@@ -42,7 +42,7 @@ const PortfolioData = [
     icon: Alkami,
     name: `Alkami (March 2016 to January 2017)`,
     description: `
-      Most of my responsbilities at Alkami were building out the front end for our banking clients. After working with the design team, I would take the finished design and build out the layouts needed. I would also build out new features introduced by our project manager. We used an ASP.NET framework, with SASS CSS, and KnockoutJS as our front end framework.
+      Most of my responsibilities at Alkami were building out the front end for our banking clients. After working with the design team, I would take the finished design and build out the layouts needed. I would also build out new features introduced by our project manager. We used an ASP.NET framework, with SASS CSS, and KnockoutJS as our front end framework.
     `,
     links: [
       {
@@ -55,7 +55,7 @@ const PortfolioData = [
     icon: DoctorLogic,
     name: `DoctorLogic (July 2014 to March 2016)`,
     description: `
-      DoctorLogic was where I first started my web development career after my four year stint in IT support. I worked closely with the lead designer and would build out front page designs from Photoshop mockups. We used an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming the sole developer, I learned more than I expected to, and am still using that knowledge in my career today.
+      DoctorLogic was where I first started my web development career after my four year stint in IT support. I worked closely with the lead designer and would build out front page designs from Photoshop mockups. We used an ASP.NET framework, LESS CSS, and vanilla JavaScript. After becoming the sole front end developer, I learned more than I expected to, and am still using that knowledge in my career today.
     `,
     links: [
       {
