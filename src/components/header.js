@@ -17,7 +17,7 @@ const Header = ({ title, subtitle, toggleMenu, menuActive }) => (
       <ul className='nav__list'>
         {SocialData.map((item, i) => (
           <li key={i} className='nav__item'>
-            <a href={item.link} title='GitHub' className='nav__link'>
+            <a href={item.link} title={item.name} className='nav__link'>
               <item.icon className='nav__icon' />
               <span className='nav__text'>{item.name}</span>
             </a>
