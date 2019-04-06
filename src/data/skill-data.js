@@ -80,7 +80,7 @@ const SkillData = [
   },
   {
     icon: Ubuntu,
-    name: `Linux Servers`,
+    name: `Linux`,
   },
   {
     icon: Shell,
