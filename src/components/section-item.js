@@ -4,7 +4,7 @@ const SectionItem = props => {
   const { grid, item } = props
 
   return (
-    <div className='section-item'>
+    <div className={`section-item ${grid ? 'section-item--grid' : ''}`}>
       {item.icon &&
         <item.icon className={`section-item__icon ${grid ? 'section-item__icon--small' : ''}`} />
       }
@@ -18,7 +18,9 @@ const SectionItem = props => {
             <p className="section-item__text">{item.duration}</p>
           </div>
           <div className='section-item__container'>
-            <p className='section-item__text section-item__text--spaced'>{item.description}</p>
+            <p className='section-item__text section-item__text--spaced'>
+              {item.description}
+            </p>
             <ul className="section-item__list">
               {item.links && item.links.map((link, i) => (
                 <li key={i} className="section-item__item">
