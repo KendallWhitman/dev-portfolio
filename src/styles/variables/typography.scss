@@ -8,7 +8,7 @@ $font-body: 'Open Sans', sans-serif;
 $logo-title: 28;
 $logo-subtitle: 23;
 $headline-text-m: 24;
-$headline-text-l: 32;
+$headline-text-l: 28;
 $body-text: 18;
 
 // CALCULATE LINE HEIGHT AND FONT SIZE AND CONVERT TO REMS
@@ -22,8 +22,8 @@ $body-text: 18;
 }
 
 @mixin fontSize ($font-size) {
-  font-size: toRem($font-size - 4);
-  line-height: lineHeight($font-size - 4);
+  font-size: toRem($font-size - 2);
+  line-height: lineHeight($font-size - 2);
   @include tablet {
     font-size: toRem($font-size);
     line-height: lineHeight($font-size);
@@ -62,15 +62,13 @@ $body-text: 18;
 }
 
 @mixin body-text {
+  @include fontSize($body-text);
   font-family: $font-body;
-  font-size: toRem($body-text);
   font-weight: 400;
-  line-height: lineHeight($body-text);
 }
 
 @mixin link-text {
+  @include fontSize($body-text);
   font-family: $font-body;
-  font-size: toRem($body-text);
   font-weight: 600;
-  line-height: lineHeight($body-text);
 }

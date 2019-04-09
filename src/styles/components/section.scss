@@ -1,6 +1,6 @@
 .section {
   display: grid;
-  grid-gap: $space*3 0;
+  grid-gap: $space*3 $space;
   margin: 0 0 $space*2; 
   padding: 0 0 $space*2;
   &:not(:last-child) {
@@ -14,7 +14,7 @@
   &--grid {
     grid-template-columns: repeat(2, 1fr);
     @include tablet {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
     @include desktop {
       grid-template-columns: repeat(5, 1fr);

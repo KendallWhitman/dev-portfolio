@@ -7,7 +7,7 @@ const Section = props => {
     <section className={`section ${grid ? 'section--grid' : ''}`}>
       <h2 className='section__title'>{title}</h2>
       {data.map((item, i) => (
-        <SectionItem key={i} grid={grid} i={i} item={item} />
+        <SectionItem key={i} grid={grid} item={item} />
       ))}
     </section>
   )

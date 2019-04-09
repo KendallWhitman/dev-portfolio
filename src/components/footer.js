@@ -11,8 +11,8 @@ const Footer = () => (
       </div>
       <div className='footer__section'>
         <h2 className='footer__title'>Download My Resume</h2>
-        {resumes.map(resume => (
-          <a href={resume.link} className='link link--spaced'>{resume.name}</a>
+        {resumes.map((resume, i) => (
+          <a key={i} href={resume.link} className='link link--spaced'>{resume.name}</a>
         ))}
       </div>
     </div>
