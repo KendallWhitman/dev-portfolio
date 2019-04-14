@@ -27,11 +27,6 @@ const SocialData = [
     name: `LinkedIn`,
   },
   {
-    icon: Mastodon,
-    link: `https://linuxrocks.online/@AsteroidMiner`,
-    name: `Mastodon`,
-  },
-  {
     icon: Instagram,
     link: `https://www.instagram.com/kendallawhitman/`,
     name: `Instagram`,
