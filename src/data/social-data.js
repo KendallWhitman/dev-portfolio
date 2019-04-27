@@ -2,7 +2,6 @@ import Github from '../images/github.svg'
 import Gogs from '../images/git.svg'
 import CodePen from '../images/codepen.svg'
 import LinkedIn from '../images/linkedin.svg'
-import Mastodon from '../images/mastodon.svg'
 import Instagram from '../images/instagram.svg'
 
 const SocialData = [
