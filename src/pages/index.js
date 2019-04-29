@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Hero />
     <Section data={PortfolioData} title={`What I've Been Doing`} />
     <Section data={ProjectData} title={`Personal Projects`} />
-    <Section data={SkillData} title={`My Skill Set (so far)`} grid={true} />
+    <Section data={SkillData} title={`My Skill Set`} grid={true} />
     <Section data={InterestData} title={`My Other Interests`} grid={true} />
   </Layout>
 )

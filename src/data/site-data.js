@@ -1,13 +1,6 @@
-const yearsInWebDev = () => {
-  const started = 2014
-  const current = new Date().getFullYear()
-  return current - started
-}
-
 const siteData = {
   title: 'Kendall Whitman',
   subtitle: 'Front End Developer',
-  description: `Hi! I'm Kendall, a Front End Developer with ${yearsInWebDev()} years of experience in a wide range of disciplines.`,
   email: 'kendallwhitman@gmail.com',
   resumes: [
     {
