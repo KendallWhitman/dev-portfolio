@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import siteData from '../data/site-data'
+import heroData from '../data/hero-data'
 
 import Header from './header'
 import Footer from './footer'
@@ -28,13 +29,14 @@ class Layout extends Component {
   render () {
     const { children } = this.props
     const { menuActive } = this.state
-    const { title, subtitle, description } = siteData
+    const { title, subtitle } = siteData
+    const { message } = heroData
 
     return (
       <>
         <Helmet>
           <title>{title} | {subtitle}</title>
-          <meta name='description' content={description} />
+          <meta name='description' content={message} />
         </Helmet>
         <Header
           title={title}
