@@ -1,13 +1,12 @@
 .footer {
   background: $primary-color;
-  color: #FFF;
 
   &__wrapper {
     margin: 0 auto;
     max-width: $desktop;
     padding: $space;
     @include tablet {
-      align-items: center;
+      align-items: flex-start;
       display: flex;
       height: 150px;
       justify-content: space-between;
@@ -25,7 +24,17 @@
 
   &__title {
     @include headline-text-l;
+    color: #FFF;
     margin: 0 0 $space;
+  }
+
+  &__text {
+    @include body-text-s;
+    color: #FFF;
+    margin: 0;
+    &:not(:last-child) {
+      margin: 0 0 $space;
+    }
   }
 
 }

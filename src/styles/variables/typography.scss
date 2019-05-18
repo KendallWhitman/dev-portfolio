@@ -10,6 +10,7 @@ $logo-subtitle: 23;
 $headline-text-m: 24;
 $headline-text-l: 28;
 $body-text: 18;
+$body-text-s: 14;
 
 // CALCULATE LINE HEIGHT AND FONT SIZE AND CONVERT TO REMS
 // ----------------------------------------------------------------------------
@@ -63,6 +64,12 @@ $body-text: 18;
 
 @mixin body-text {
   @include fontSize($body-text);
+  font-family: $font-body;
+  font-weight: 400;
+}
+
+@mixin body-text-s {
+  @include fontSize($body-text-s);
   font-family: $font-body;
   font-weight: 400;
 }
