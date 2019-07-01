@@ -10,20 +10,5 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            variants: [`500`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `600`],
-          },
-        ],
-      },
-    },
   ],
 }
