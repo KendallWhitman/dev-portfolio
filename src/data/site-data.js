@@ -6,15 +6,15 @@ const siteData = {
   pgpFingerprint: '0C6D F79C AF94 152F 9E54 08BD 213D A6FE 014D D06F',
   resumes: [
     {
-      link: 'https://next.thewhitmans.cloud/index.php/s/qyARtBYmGK4srcz/download',
+      link: 'https://next.thewhitmans.cloud/index.php/s/Hed3WHdKfaPs8WW/download',
       name: 'PDF',
     },
     {
-      link: 'https://next.thewhitmans.cloud/index.php/s/nrDsDTBYaqEtTQD/download',
+      link: 'https://next.thewhitmans.cloud/index.php/s/9nPKH2fQMDbtrBk/download',
       name: 'Word',
     },
     {
-      link: 'https://next.thewhitmans.cloud/index.php/s/32PgrfkNcP8KfB8/download',
+      link: 'https://next.thewhitmans.cloud/index.php/s/mQgidQnGdJG9fqn/download',
       name: 'Text',
     },
   ]
