@@ -2,8 +2,6 @@ const siteData = {
   title: 'Kendall Whitman',
   subtitle: 'Front End Developer',
   email: 'kendallwhitman@gmail.com',
-  pgpKey: 'https://next.thewhitmans.cloud/index.php/s/jJWZBP57Eepya8N/download',
-  pgpFingerprint: '0C6D F79C AF94 152F 9E54 08BD 213D A6FE 014D D06F',
   resumes: [
     {
       link: 'https://next.thewhitmans.cloud/index.php/s/Hed3WHdKfaPs8WW/download',
