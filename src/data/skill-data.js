@@ -16,6 +16,7 @@ import Photoshop from '../images/adobephotoshop.svg'
 import Lightroom from '../images/adobelightroom.svg'
 import Illustrator from '../images/adobeillustrator.svg'
 import Ubuntu from '../images/ubuntu.svg'
+import Docker from '../images/docker.svg'
 
 const SkillData = [
   {
@@ -81,6 +82,10 @@ const SkillData = [
   {
     icon: Ubuntu,
     name: `Linux`,
+  },
+  {
+    icon: Docker,
+    name: `Docker`,
   },
   {
     icon: Shell,
