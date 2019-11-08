@@ -16,12 +16,10 @@
     height: 150px;
     margin: 0 0 $space;
     object-fit: cover;
-    object-position: -25px 0;
     width: 150px;
     @include tablet {
       height: 200px;
       margin: 0 $space*2 0 0;
-      object-position: -40px 0;
       width: 200px;
     }
   }
