@@ -4,5 +4,5 @@ COPY . .
 RUN npm i
 RUN npm i -g serve
 RUN npm run build
-EXPOSE 3001
-CMD serve -s public -l 3001
+EXPOSE 8001
+CMD serve -s public -l 8001
