@@ -2,11 +2,26 @@ import Doorsteps from '../images/doorsteps.svg'
 import Airplane from '../images/airplane.svg'
 import Alkami from '../images/alkami.svg'
 import DoctorLogic from '../images/doctorlogic.svg'
+import Realtor from '../images/realtor.svg'
 
 const PortfolioData = [
   {
+    icon: Realtor,
+    name: `Realtor.com (Move Inc.)`,
+    duration:`October 2019 to Present`,
+    description: `
+      Working remotely from Dallas, I work on a small team of designers and developers creating and managing the Sell and MyHome pages of realtor.com. Most of my day is spent working with React, implementing API endpoints via Express and GraphQL, and building out our pages with Styled Components.
+    `,
+    links: [
+      {
+        name: 'Realtor.com',
+        link: 'https://www.realtor.com'
+      }
+    ],
+  },
+  {
     icon: Doorsteps,
-    name: `Doorsteps`,
+    name: `Doorsteps.com (Move Inc.)`,
     duration:`July 2017 to May 2019`,
     description: `
       At Doorsteps, I work on a small, cross functional team with four other developers. We use ReactJS, Redux, PostgreSQL, SCSS, and other technologies to build out our front end with mostly NodeJS (We've still got a lone Ruby on Rails server) on the backend. While being a cross functional team means I touch all parts of the application, my strengths tend to lie in the front end, writing JavaScript and SCSS components.

@@ -17,6 +17,7 @@ import Lightroom from '../images/adobelightroom.svg'
 import Illustrator from '../images/adobeillustrator.svg'
 import Ubuntu from '../images/ubuntu.svg'
 import Docker from '../images/docker.svg'
+import Jest from '../images/jest.svg'
 
 const SkillData = [
   {
@@ -54,6 +55,10 @@ const SkillData = [
   {
     icon: Redux,
     name: `Redux`,
+  },
+  {
+    icon: Jest,
+    name: `Jest`,
   },
   {
     icon: Webpack,
