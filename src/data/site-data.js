@@ -1,6 +1,6 @@
 const siteData = {
   title: 'Kendall Whitman',
-  subtitle: 'Full Stack Developer',
+  subtitle: 'Front End Developer',
   email: 'kendallwhitman@gmail.com',
   // resumes: [
   //   {

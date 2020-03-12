@@ -1,7 +1,7 @@
 FROM node
 WORKDIR portfolio
 COPY . .
-RUN npm i
+RUN npm i --loglevel verbose
 RUN npm i -g serve
 RUN npm run build
 EXPOSE 8001
