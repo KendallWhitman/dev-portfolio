@@ -8,7 +8,7 @@ const ProjectData = [
     links: [
       {
         name: 'Kendall Whitman Photography',
-        link: 'https://kendallwhitman.photogrpahy'
+        link: 'https://kendallwhitman.photography'
       },
     ],
   },
