@@ -12,7 +12,7 @@ const SocialData = [
   },
   {
     icon: Gogs,
-    link: `https://gogs.thewhitmans.cloud/explore`,
+    link: `https://gogs.kendallwhitman.com/explore`,
     name: `Gogs`,
   },
   {
