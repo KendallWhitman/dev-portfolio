@@ -18,6 +18,8 @@ import Illustrator from '../images/adobeillustrator.svg'
 import Ubuntu from '../images/ubuntu.svg'
 import Docker from '../images/docker.svg'
 import Jest from '../images/jest.svg'
+import Dart from '../images/dart.svg'
+import Flutter from '../images/flutter.svg'
 
 const SkillData = [
   {
@@ -67,6 +69,14 @@ const SkillData = [
   {
     icon: Gatsby,
     name: `Gatsby`,
+  },
+  {
+    icon: Dart,
+    name: `Dart`,
+  },
+  {
+    icon: Flutter,
+    name: `Flutter`,
   },
   {
     icon: Apache,

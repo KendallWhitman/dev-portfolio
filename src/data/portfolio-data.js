@@ -10,7 +10,7 @@ const PortfolioData = [
     name: `Realtor.com (Move Inc.)`,
     duration:`October 2019 to Present`,
     description: `
-      Working remotely from Dallas, I work on a small team of designers and developers creating and managing the Sell and MyHome pages of realtor.com. Most of my day is spent working with React, implementing API endpoints via Express and GraphQL, and building out our pages with Styled Components.
+      Working remotely from Dallas, I work on a small team of designers and developers creating and managing the Sell and MyHome pages of realtor.com. Most of my day is spent working with React, implementing API endpoints via Express and GraphQL, and building out our pages with Styled Components. More recently I've begun working with our mobile team, building out widgets with Dart and Flutter for our native apps.
     `,
     links: [
       {
