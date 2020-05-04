@@ -11,5 +11,6 @@
   z-index: 1;
   @include tablet {
     height: $header-height;
+    padding: 0 $space*2;
   }
 }

@@ -42,7 +42,7 @@ $body-text-s: 14;
 
 @mixin logo-subtitle-text {
   font-family: $font-headline;
-  font-size: toRem($logo-subtitle - 3.1);
+  font-size: toRem($logo-subtitle - 1);
   font-weight: 500;
   line-height: lineHeight($logo-subtitle - 3.1);
   @include tablet {
