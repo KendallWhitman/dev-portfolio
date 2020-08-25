@@ -1,7 +1,7 @@
 import React from 'react'
 import siteData from '../data/site-data'
 import heroData from '../data/hero-data'
-import Image from '../images/profile-2.jpg'
+import Image from '../images/profile.jpg'
 
 const Hero = () => (
   <section className='hero'>
