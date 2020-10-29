@@ -1,13 +1,13 @@
-import Gogs from '../images/git.svg'
+import Git from '../images/git.svg'
 import CodePen from '../images/codepen.svg'
 import LinkedIn from '../images/linkedin.svg'
 import Instagram from '../images/instagram.svg'
 
 const SocialData = [
   {
-    icon: Gogs,
-    link: `https://gogs.kendallwhitman.com/explore`,
-    name: `Gogs`,
+    icon: Git,
+    link: `https://git.kendallwhitman.dev/Kendall`,
+    name: `Git`,
   },
   {
     icon: CodePen,
