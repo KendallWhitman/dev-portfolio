@@ -9,7 +9,7 @@ const PortfolioData = [
   {
     icon: Complyify,
     name: `Complyify`,
-    duration: `May 2020 - Present`,
+    duration: `May 2020 - August 2020`,
     description: `With Complyify I work on creating and managing the frontend
     application for reviewing forgiveness loan requests regarding the Paycheck
     Protection Program. Most of my time is spent designing and building React
