@@ -20,6 +20,7 @@ import Docker from '../images/docker.svg'
 import Jest from '../images/jest.svg'
 import Dart from '../images/dart.svg'
 import Flutter from '../images/flutter.svg'
+import Graphql from '../images/graphql.svg';
 
 const SkillData = [
   {
@@ -93,6 +94,10 @@ const SkillData = [
   {
     icon: Postgresql,
     name: `PostgreSQL`,
+  },
+  {
+    icon: Graphql,
+    name: `GraphQL`,
   },
   {
     icon: Ubuntu,
