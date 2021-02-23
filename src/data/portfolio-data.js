@@ -4,8 +4,37 @@ import Alkami from '../images/alkami.svg'
 import DoctorLogic from '../images/doctorlogic.svg'
 import Realtor from '../images/realtor.svg'
 import Complyify from '../images/complyify.svg'
+import CampingWorld from '../images/campingworld.svg';
+import NBC from '../images/nbc.svg'
 
 const PortfolioData = [
+  {
+    icon: NBC,
+    name: `CNBC`,
+    duration: `December 2020 - Present`,
+    description: `At CNBC, I currently work on the Engagement team, building 
+    out new core functionality. This includes new features and bugfixes in a 
+    scrum environment. The languages used here are React with SCSS, some 
+    GraphQL, and Jest/Enzyme for lots of testing.`,
+    links: [
+      {
+        name: 'CNBC.com',
+        link: 'https://cnbc.com'
+      }
+    ],
+  },
+  {
+    icon: CampingWorld,
+    name: `Camping World`,
+    duration: `September 2020 - November 2020`,
+    description: `Worked with Camping World as a senior front end devloper.`,
+    links: [
+      {
+        name: 'CampingWorld.com',
+        link: 'https://campingworld.com'
+      }
+    ],
+  },
   {
     icon: Complyify,
     name: `Complyify`,
