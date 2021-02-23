@@ -4,11 +4,11 @@ const siteData = {
   email: 'kendallwhitman@gmail.com',
   resumes: [
     {
-      link: 'https://next.thewhitmans.cloud/s/5MR8NMBH3kswXb9/download',
+      link: 'https://next.kendallwhitman.dev/s/WoRj9gLyYei5qQ7/download',
       name: 'PDF',
     },
     {
-      link: 'https://next.thewhitmans.cloud/s/6mgG6WrqXWP789o/download',
+      link: 'https://next.kendallwhitman.dev/s/K5gwAiQJSyWB32E/download',
       name: 'Word',
     },
   ]
