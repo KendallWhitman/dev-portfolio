@@ -6,14 +6,29 @@ import Realtor from '../images/realtor.svg'
 import Complyify from '../images/complyify.svg'
 import CampingWorld from '../images/campingworld.svg';
 import NBC from '../images/nbc.svg'
+import OA from '../images/OA.svg'
 
 const PortfolioData = [
   {
+    icon: OA,
+    name: `Overlay Analytics`,
+    duration: `April 2020 - August 2021`,
+    description: `With Overlay Analytics I worked on the frontend team, 
+    collaborating with the backend, data, and design teams to build out a 
+    scalable UI interface.`,
+    links: [
+      {
+        name: 'OverlayAnalytics.com',
+        link: 'https://overlayanalytics.com'
+      }
+    ],
+  },
+  {
     icon: NBC,
     name: `CNBC`,
-    duration: `December 2020 - Present`,
-    description: `At CNBC, I currently work on the Engagement team, building 
-    out new core functionality. This includes new features and bugfixes in a 
+    duration: `December 2020 - April 2020`,
+    description: `At CNBC, I worked on the Engagement team, building 
+    out new core functionality. This included new features and bugfixes in a 
     scrum environment. The languages used here are React with SCSS, some 
     GraphQL, and Jest/Enzyme for lots of testing.`,
     links: [
@@ -39,11 +54,11 @@ const PortfolioData = [
     icon: Complyify,
     name: `Complyify`,
     duration: `May 2020 - August 2020`,
-    description: `With Complyify I work on creating and managing the frontend
+    description: `With Complyify I worked on creating and managing the frontend
     application for reviewing forgiveness loan requests regarding the Paycheck
-    Protection Program. Most of my time is spent designing and building React
+    Protection Program. Most of my time was spent designing and building React
     components with minimal guidance, and writing unit tests in Jest to
-    increase our code coverage.`,
+    increase code coverage.`,
     links: [
       {
         name: 'Complyify.com',
@@ -55,7 +70,7 @@ const PortfolioData = [
     icon: Realtor,
     name: `Realtor.com (Move Inc.)`,
     duration: `October 2019 to May 2020`,
-    description: `Working remotely from Dallas, I work on a small team of
+    description: `Working remotely from Dallas, I worked on a small team of
     designers and developers creating and managing the Sell and MyHome pages of
     realtor.com. Most of my day is spent working with React, implementing API
     endpoints via Express and GraphQL, and building out our pages with Styled
@@ -72,9 +87,9 @@ const PortfolioData = [
     icon: Doorsteps,
     name: `Doorsteps.com (Move Inc.)`,
     duration: `July 2017 to May 2019`,
-    description: `At Doorsteps, I work on a small, cross functional team with
-    four other developers. We use ReactJS, Redux, PostgreSQL, SCSS, and other
-    technologies to build out our front end with mostly NodeJS (We've still got
+    description: `At Doorsteps, I worked on a small, cross functional team with
+    four other developers. We useed ReactJS, Redux, PostgreSQL, SCSS, and other
+    technologies to build out our front end with mostly NodeJS (We still had
       a lone Ruby on Rails server) on the backend. While being a cross
     functional team means I touch all parts of the application, my strengths
     tend to lie in the front end, writing JavaScript and SCSS components.`,
