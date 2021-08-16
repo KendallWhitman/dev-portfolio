@@ -42,7 +42,8 @@ const PortfolioData = [
     icon: CampingWorld,
     name: `Camping World`,
     duration: `September 2020 - November 2020`,
-    description: `Worked with Camping World as a senior front end devloper.`,
+    description: `Worked with Camping World as a senior front end devloper,
+    building a platform for easy RV rentals.`,
     links: [
       {
         name: 'CampingWorld.com',
@@ -99,17 +100,6 @@ const PortfolioData = [
         link: 'https://www.doorsteps.com'
       }
     ],
-  },
-  {
-    icon: Airplane,
-    name: `Freelance`,
-    duration: `March 2017 to July 2017`,
-    description: `Shortly after moving to New York, I picked up a number of
-    different projects, from single page portfolio sites, to larger e-commerce
-    sites. The tools for these depended on the project, but I would tend to
-    lean towards WordPress or GatsbyJS, all the while using SASS or regular CSS
-    for styling.`,
-    links: [],
   },
   {
     icon: Alkami,

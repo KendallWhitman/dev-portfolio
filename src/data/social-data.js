@@ -9,21 +9,21 @@ const SocialData = [
     link: `https://git.kendallwhitman.dev/Kendall`,
     name: `Git`,
   },
-  {
-    icon: CodePen,
-    link: `https://codepen.io/KendallWhitman`,
-    name: `CodePen`,
-  },
+  // {
+  //   icon: CodePen,
+  //   link: `https://codepen.io/KendallWhitman`,
+  //   name: `CodePen`,
+  // },
   {
     icon: LinkedIn,
     link: `https://www.linkedin.com/in/kendall-whitman-9465ba11b`,
     name: `LinkedIn`,
   },
-  {
-    icon: Instagram,
-    link: `https://www.instagram.com/kendallawhitman/`,
-    name: `Instagram`,
-  },
+  // {
+  //   icon: Instagram,
+  //   link: `https://www.instagram.com/kendallawhitman/`,
+  //   name: `Instagram`,
+  // },
 ]
 
 export default SocialData
