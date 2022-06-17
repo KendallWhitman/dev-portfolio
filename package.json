@@ -23,7 +23,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve -H 0.0.0.0 -p 8001",
+    "serve": "gatsby serve -H 0.0.0.0 -p 8002",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }
