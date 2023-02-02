@@ -6,8 +6,8 @@ import Instagram from '../images/instagram.svg'
 const SocialData = [
   {
     icon: Git,
-    link: `https://git.kendallwhitman.dev/Kendall`,
-    name: `Git`,
+    link: `https://github.com/kendallwhitman1`,
+    name: `GitHub`,
   },
   // {
   //   icon: CodePen,

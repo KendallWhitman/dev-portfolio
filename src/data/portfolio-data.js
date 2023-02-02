@@ -1,5 +1,4 @@
 import Doorsteps from '../images/doorsteps.svg'
-import Airplane from '../images/airplane.svg'
 import Alkami from '../images/alkami.svg'
 import DoctorLogic from '../images/doctorlogic.svg'
 import Realtor from '../images/realtor.svg'
@@ -9,6 +8,21 @@ import NBC from '../images/nbc.svg'
 import OA from '../images/OA.svg'
 
 const PortfolioData = [
+  {
+    icon: NBC,
+    name: `NBC News`,
+    duration: `September 2021 - Present`,
+    description: `I'm currently apart of the Articles & Video team creating 
+    features within articles and maintaining a consistent experience with our 
+    VOD and live content. We successfully launched CNBC's Investing Club 
+    subscription and hosted the Berkshire Hathaway spring event.`,
+    links: [
+      {
+        name: 'NBCNews.com',
+        link: 'https://nbcnews.com'
+      }
+    ],
+  },
   {
     icon: OA,
     name: `Overlay Analytics`,

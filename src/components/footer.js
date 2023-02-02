@@ -9,7 +9,7 @@ const Footer = () => (
         <h2 className='footer__title'>Want to get in touch?</h2>
         <a href={`mailto:${email}`} className='link'>{email}</a>
       </div>
-      {resumes &&
+      {resumes?.length &&
         <div className='footer__section'>
           <h2 className='footer__title'>My Resume</h2>
           {resumes.map((resume, i) => (
