@@ -1,7 +1,7 @@
 const siteData = {
   title: 'Kendall Whitman',
-  subtitle: 'Frontend Developer',
-  email: 'kendallwhitman@gmail.com',
+  subtitle: 'Fullstack Developer',
+  email: 'kendall@kendallwhitman.dev',
   resumes: [
     // {
     //   link: 'https://next.kendallwhitman.dev/s/WoRj9gLyYei5qQ7/download',

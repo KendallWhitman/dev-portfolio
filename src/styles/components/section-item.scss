@@ -1,9 +1,9 @@
 .section-item {
   align-items: center;
-  display: grid;
   grid-gap: $space;
   grid-template-columns: auto 1fr;
   @include tablet {
+    display: grid;
     align-items: initial;
   }
 

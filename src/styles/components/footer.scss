@@ -2,14 +2,14 @@
   background: $primary-color;
 
   &__wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     max-width: $desktop;
     padding: $space;
     @include tablet {
-      align-items: flex-start;
-      display: flex;
       height: 150px;
-      justify-content: space-between;
     }
   }
 
@@ -26,12 +26,14 @@
     @include headline-text-l;
     color: #FFF;
     margin: 0 0 $space;
+    text-align: center;
   }
 
   &__text {
     @include body-text-s;
     color: #FFF;
     margin: 0;
+    text-align: center;
     &:not(:last-child) {
       margin: 0 0 $space;
     }

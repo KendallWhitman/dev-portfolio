@@ -71,22 +71,22 @@ const SkillData = [
     icon: Gatsby,
     name: `Gatsby`,
   },
-  {
-    icon: Dart,
-    name: `Dart`,
-  },
-  {
-    icon: Flutter,
-    name: `Flutter`,
-  },
+  // {
+  //   icon: Dart,
+  //   name: `Dart`,
+  // },
+  // {
+  //   icon: Flutter,
+  //   name: `Flutter`,
+  // },
   {
     icon: Apache,
     name: `Apache`,
   },
-  {
-    icon: PHP,
-    name: `PHP`,
-  },
+  // {
+  //   icon: PHP,
+  //   name: `PHP`,
+  // },
   {
     icon: WordPress,
     name: `WordPress`,
@@ -111,18 +111,18 @@ const SkillData = [
     icon: Shell,
     name: `Shell Scripting`,
   },
-  {
-    icon: Photoshop,
-    name: `Photoshop`,
-  },
-  {
-    icon: Lightroom,
-    name: `Lightroom`,
-  },
-  {
-    icon: Illustrator,
-    name: `Illustrator`,
-  },
+  // {
+  //   icon: Photoshop,
+  //   name: `Photoshop`,
+  // },
+  // {
+  //   icon: Lightroom,
+  //   name: `Lightroom`,
+  // },
+  // {
+  //   icon: Illustrator,
+  //   name: `Illustrator`,
+  // },
 ]
 
 export default SkillData
