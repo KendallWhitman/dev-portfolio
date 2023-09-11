@@ -21,6 +21,7 @@ import Jest from '../images/jest.svg'
 import Dart from '../images/dart.svg'
 import Flutter from '../images/flutter.svg'
 import Graphql from '../images/graphql.svg';
+import Svelte from '../images/svelte.svg';
 
 const SkillData = [
   {
@@ -58,6 +59,10 @@ const SkillData = [
   {
     icon: Redux,
     name: `Redux`,
+  },
+  {
+    icon: Svelte,
+    name: `Svelte/SvelteKit`,
   },
   {
     icon: Jest,
